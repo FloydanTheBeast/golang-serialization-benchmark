@@ -1,0 +1,8 @@
+syntax = "proto3";
+package pb;
+
+message SampleProtobuffData {
+	string StringField = 1;
+	int32 IntField = 2;
+	repeated float ArrayField = 3;
+}
